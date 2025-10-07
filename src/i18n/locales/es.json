@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "title": "Conecta Pasajeros y Conductores",
+    "subtitle": "Tu solución de transporte confiable en las provincias. Seguimiento en tiempo real, conductores verificados y viajes seguros.",
+    "ctaPassenger": "Buscar Viaje",
+    "ctaDriver": "Ser Conductor"
+  },
+  "features": {
+    "title": "¿Por Qué Elegir ProvinceRide?",
+    "subtitle": "Todo lo que necesitas para un transporte seguro y confiable",
+    "map": {
+      "title": "Mapa de Rutas Interactivo",
+      "description": "Ve todas las estaciones y rutas disponibles en tu área con nuestra interfaz de mapa fácil de usar."
+    },
+    "tracking": {
+      "title": "Seguimiento en Tiempo Real",
+      "description": "Rastrea tu viaje en tiempo real y sabe exactamente cuándo llegará tu conductor."
+    },
+    "connect": {
+      "title": "Conexión Instantánea",
+      "description": "Conéctate con conductores verificados al instante y ponte en marcha sin esperar."
+    }
+  },
+  "passengers": {
+    "title": "Para Pasajeros",
+    "subtitle": "Transporte seguro y confiable al alcance de tu mano",
+    "feature1": {
+      "title": "Reserva Fácil",
+      "description": "Reserva tu viaje en segundos con nuestra interfaz simple"
+    },
+    "feature2": {
+      "title": "Conductores Verificados",
+      "description": "Todos los conductores están verificados y calificados por la comunidad"
+    },
+    "feature3": {
+      "title": "Precios Justos",
+      "description": "Precios transparentes sin cargos ocultos"
+    }
+  },
+  "drivers": {
+    "title": "Para Conductores",
+    "subtitle": "Gana dinero según tu horario",
+    "feature1": {
+      "title": "Horario Flexible",
+      "description": "Conduce cuando quieras, donde quieras"
+    },
+    "feature2": {
+      "title": "Pasajeros Regulares",
+      "description": "Construye una base de clientes leales en rutas populares"
+    },
+    "feature3": {
+      "title": "Pagos Fáciles",
+      "description": "Recibe pagos rápida y seguramente a través de la app"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Comienza en tres simples pasos",
+    "step1": {
+      "title": "Descarga la App",
+      "description": "Disponible en iOS y Android"
+    },
+    "step2": {
+      "title": "Crea Tu Perfil",
+      "description": "Regístrate como pasajero o conductor"
+    },
+    "step3": {
+      "title": "Inicia Tu Viaje",
+      "description": "Reserva viajes o acepta pasajeros"
+    }
+  },
+  "cta": {
+    "title": "¿Listo Para Comenzar?",
+    "subtitle": "Únete a miles de pasajeros y conductores que ya usan ProvinceRide",
+    "download": "Descargar la App",
+    "learnMore": "Saber Más"
+  },
+  "footer": {
+    "brand": {
+      "name": "ProvinceRide",
+      "tagline": "Conectando comunidades a través del transporte confiable"
+    },
+    "quickLinks": "Enlaces Rápidos",
+    "support": "Soporte",
+    "contact": "Contáctanos",
+    "copyright": "Todos los derechos reservados.",
+    "links": {
+      "about": "Sobre Nosotros",
+      "howItWorks": "Cómo Funciona",
+      "forDrivers": "Para Conductores",
+      "forPassengers": "Para Pasajeros",
+      "help": "Centro de Ayuda",
+      "safety": "Seguridad",
+      "terms": "Términos de Servicio",
+      "privacy": "Política de Privacidad"
+    }
+  }
+}

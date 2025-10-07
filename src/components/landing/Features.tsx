@@ -2,23 +2,26 @@ import { Card, CardContent } from "@/components/ui/card";
 import featureMap from "@/assets/feature-map.png";
 import featureTracking from "@/assets/feature-tracking.png";
 import featureConnect from "@/assets/feature-connect.png";
+import { useTranslation } from "react-i18next";
 
 const Features = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: featureMap,
-      title: "Interactive Map",
-      description: "View all stations, routes, and available rides on an easy-to-use interactive map interface."
+      title: t('features.map.title'),
+      description: t('features.map.description')
     },
     {
       icon: featureTracking,
-      title: "Real-Time Tracking",
-      description: "Track your ride in real-time with live GPS updates. Know exactly when your transport will arrive."
+      title: t('features.tracking.title'),
+      description: t('features.tracking.description')
     },
     {
       icon: featureConnect,
-      title: "Trusted Community",
-      description: "Connect with verified drivers and passengers. Build trust through ratings and reviews."
+      title: t('features.connect.title'),
+      description: t('features.connect.description')
     }
   ];
 
@@ -27,12 +30,10 @@ const Features = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold">
-            <span className="text-primary">Everything You Need</span>
-            <br />
-            in One App
+            {t('features.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Powerful features designed to make provincial transportation accessible, reliable, and safe for everyone.
+            {t('features.subtitle')}
           </p>
         </div>
 

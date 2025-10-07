@@ -1,27 +1,25 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Clock, Shield, DollarSign } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const ForPassengers = () => {
+  const { t } = useTranslation();
+  
   const benefits = [
     {
       icon: MapPin,
-      title: "Find Routes Easily",
-      description: "Search and discover all available routes and stations near you"
+      title: t('passengers.feature1.title'),
+      description: t('passengers.feature1.description')
     },
     {
       icon: Clock,
-      title: "Save Time",
-      description: "Real-time updates mean no more waiting around wondering when transport will arrive"
+      title: t('passengers.feature2.title'),
+      description: t('passengers.feature2.description')
     },
     {
       icon: Shield,
-      title: "Travel Safely",
-      description: "Verified drivers and vehicles ensure your safety on every journey"
-    },
-    {
-      icon: DollarSign,
-      title: "Fair Pricing",
-      description: "Transparent pricing with no hidden fees or surprise charges"
+      title: t('passengers.feature3.title'),
+      description: t('passengers.feature3.description')
     }
   ];
 
@@ -31,20 +29,16 @@ const ForPassengers = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <div className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium">
-                For Passengers
-              </div>
               <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-                Never Miss a Ride<br />
-                <span className="text-primary">To Your Destination</span>
+                {t('passengers.title')}
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Whether you're commuting to work, visiting family, or exploring your province, finding reliable transportation has never been easier.
+                {t('passengers.subtitle')}
               </p>
             </div>
 
             <Button variant="hero" size="lg">
-              Get Started as Passenger
+              {t('hero.ctaPassenger')}
             </Button>
           </div>
 

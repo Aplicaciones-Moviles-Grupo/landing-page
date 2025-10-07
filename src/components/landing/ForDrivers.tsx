@@ -1,27 +1,25 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Users, Calendar, Award } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const ForDrivers = () => {
+  const { t } = useTranslation();
+  
   const benefits = [
     {
       icon: TrendingUp,
-      title: "Increase Your Income",
-      description: "Connect with more passengers and maximize your daily earnings"
+      title: t('drivers.feature1.title'),
+      description: t('drivers.feature1.description')
     },
     {
       icon: Users,
-      title: "Build Your Network",
-      description: "Establish regular customers and create a reliable passenger base"
+      title: t('drivers.feature2.title'),
+      description: t('drivers.feature2.description')
     },
     {
       icon: Calendar,
-      title: "Flexible Schedule",
-      description: "Work on your own terms and manage your availability"
-    },
-    {
-      icon: Award,
-      title: "Earn Recognition",
-      description: "Build your reputation through ratings and verified service"
+      title: t('drivers.feature3.title'),
+      description: t('drivers.feature3.description')
     }
   ];
 
@@ -48,20 +46,16 @@ const ForDrivers = () => {
 
           <div className="space-y-8 lg:order-2">
             <div className="space-y-4">
-              <div className="inline-block px-4 py-1.5 rounded-full bg-accent/10 text-accent-foreground text-sm font-medium">
-                For Drivers
-              </div>
               <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-                Grow Your Business<br />
-                <span className="text-accent">Serve Your Community</span>
+                {t('drivers.title')}
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Join our network of trusted drivers providing essential transportation services. Increase your visibility and connect with passengers who need you.
+                {t('drivers.subtitle')}
               </p>
             </div>
 
             <Button variant="secondary" size="lg">
-              Register as Driver
+              {t('hero.ctaDriver')}
             </Button>
           </div>
         </div>

@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "title": "Connect Passengers & Drivers",
+    "subtitle": "Your reliable transportation solution in the provinces. Real-time tracking, verified drivers, and secure rides.",
+    "ctaPassenger": "Find a Ride",
+    "ctaDriver": "Become a Driver"
+  },
+  "features": {
+    "title": "Why Choose ProvinceRide?",
+    "subtitle": "Everything you need for safe and reliable transportation",
+    "map": {
+      "title": "Interactive Route Map",
+      "description": "View all available stations and routes in your area with our easy-to-use map interface."
+    },
+    "tracking": {
+      "title": "Real-Time Tracking",
+      "description": "Track your ride in real-time and know exactly when your driver will arrive."
+    },
+    "connect": {
+      "title": "Instant Connection",
+      "description": "Connect with verified drivers instantly and get on your way without waiting."
+    }
+  },
+  "passengers": {
+    "title": "For Passengers",
+    "subtitle": "Safe, reliable transportation at your fingertips",
+    "feature1": {
+      "title": "Easy Booking",
+      "description": "Book your ride in seconds with our simple interface"
+    },
+    "feature2": {
+      "title": "Verified Drivers",
+      "description": "All drivers are verified and rated by the community"
+    },
+    "feature3": {
+      "title": "Fair Pricing",
+      "description": "Transparent pricing with no hidden fees"
+    }
+  },
+  "drivers": {
+    "title": "For Drivers",
+    "subtitle": "Earn money on your schedule",
+    "feature1": {
+      "title": "Flexible Schedule",
+      "description": "Drive when you want, where you want"
+    },
+    "feature2": {
+      "title": "Regular Passengers",
+      "description": "Build a loyal customer base on popular routes"
+    },
+    "feature3": {
+      "title": "Easy Payments",
+      "description": "Get paid quickly and securely through the app"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started in three simple steps",
+    "step1": {
+      "title": "Download the App",
+      "description": "Available on iOS and Android"
+    },
+    "step2": {
+      "title": "Create Your Profile",
+      "description": "Sign up as a passenger or driver"
+    },
+    "step3": {
+      "title": "Start Your Journey",
+      "description": "Book rides or accept passengers"
+    }
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "subtitle": "Join thousands of passengers and drivers already using ProvinceRide",
+    "download": "Download the App",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "brand": {
+      "name": "ProvinceRide",
+      "tagline": "Connecting communities through reliable transportation"
+    },
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "contact": "Contact Us",
+    "copyright": "All rights reserved.",
+    "links": {
+      "about": "About Us",
+      "howItWorks": "How It Works",
+      "forDrivers": "For Drivers",
+      "forPassengers": "For Passengers",
+      "help": "Help Center",
+      "safety": "Safety",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    }
+  }
+}

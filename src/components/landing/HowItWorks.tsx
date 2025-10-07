@@ -1,26 +1,24 @@
 import { Search, MapPin, Navigation, CheckCircle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const HowItWorks = () => {
+  const { t } = useTranslation();
+  
   const steps = [
     {
       icon: Search,
-      title: "Search Your Route",
-      description: "Enter your destination and browse available transportation options"
+      title: t('howItWorks.step1.title'),
+      description: t('howItWorks.step1.description')
     },
     {
       icon: MapPin,
-      title: "Choose Your Station",
-      description: "Select the most convenient station and view real-time availability"
+      title: t('howItWorks.step2.title'),
+      description: t('howItWorks.step2.description')
     },
     {
       icon: Navigation,
-      title: "Track in Real-Time",
-      description: "Monitor your ride's location and estimated arrival time live"
-    },
-    {
-      icon: CheckCircle,
-      title: "Arrive Safely",
-      description: "Complete your journey with peace of mind and rate your experience"
+      title: t('howItWorks.step3.title'),
+      description: t('howItWorks.step3.description')
     }
   ];
 
@@ -29,14 +27,14 @@ const HowItWorks = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold">
-            How It <span className="text-primary">Works</span>
+            {t('howItWorks.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Getting around your province is simple with our easy 4-step process
+            {t('howItWorks.subtitle')}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-8 relative">
+        <div className="grid md:grid-cols-3 gap-8 relative">
           {/* Connection Line */}
           <div className="hidden md:block absolute top-12 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-primary to-accent -z-10" 
                style={{ width: 'calc(100% - 8rem)', left: '4rem' }} 
