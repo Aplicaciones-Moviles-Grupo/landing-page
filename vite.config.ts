@@ -3,10 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// Configuración completa y corregida para GitHub Pages
 export default defineConfig(({ mode }) => ({
-    // 👇 Esta línea es clave: indica la ruta base del proyecto
-    base: "/landing-page/",
+    base: "/landing-page/", // 👈 IMPORTANTE
 
     server: {
         host: "::",
@@ -17,7 +15,7 @@ export default defineConfig(({ mode }) => ({
 
     resolve: {
         alias: {
-            "@": path.resolve(__dirname, "./src"),
+            "@": path.resolve(__dirname, "src"),
         },
     },
 }));
