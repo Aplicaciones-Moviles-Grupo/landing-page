@@ -5,6 +5,7 @@ import ForDrivers from "@/components/landing/ForDrivers";
 import HowItWorks from "@/components/landing/HowItWorks";
 import CTA from "@/components/landing/CTA";
 import Footer from "@/components/landing/Footer";
+import Team from "@/components/landing/Team.tsx";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Features />
       <ForPassengers />
       <ForDrivers />
+      <Team />
       <HowItWorks />
       <CTA />
       <Footer />
