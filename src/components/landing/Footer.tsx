@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <MapPin className="h-6 w-6 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">ProvinceRide</span>
+              <span className="text-xl font-bold">ChapaTuRuta</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Connecting communities through reliable transportation solutions.

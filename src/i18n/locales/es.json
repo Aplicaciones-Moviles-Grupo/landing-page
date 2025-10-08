@@ -1,12 +1,12 @@
 {
   "hero": {
-    "title": "Conecta Pasajeros y Conductores",
+    "title": "Chapa tu Ruta",
     "subtitle": "Tu solución de transporte confiable en las provincias. Seguimiento en tiempo real, conductores verificados y viajes seguros.",
     "ctaPassenger": "Buscar Viaje",
     "ctaDriver": "Ser Conductor"
   },
   "features": {
-    "title": "¿Por Qué Elegir ProvinceRide?",
+    "title": "¿Por Qué Elegir Chapa tu Ruta?",
     "subtitle": "Todo lo que necesitas para un transporte seguro y confiable",
     "map": {
       "title": "Mapa de Rutas Interactivo",

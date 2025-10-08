@@ -1,12 +1,12 @@
 {
   "hero": {
-    "title": "Connect Passengers & Drivers",
+    "title": "Chapa tu Ruta",
     "subtitle": "Your reliable transportation solution in the provinces. Real-time tracking, verified drivers, and secure rides.",
     "ctaPassenger": "Find a Ride",
     "ctaDriver": "Become a Driver"
   },
   "features": {
-    "title": "Why Choose ProvinceRide?",
+    "title": "Why Choose Chapa tu Ruta?",
     "subtitle": "Everything you need for safe and reliable transportation",
     "map": {
       "title": "Interactive Route Map",
